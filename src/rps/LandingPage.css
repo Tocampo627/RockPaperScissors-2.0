@@ -1,0 +1,21 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.game-title {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  padding: 10px;
+  margin: 10px;
+}
+
+.play-icon {
+  font-size: 60px;
+  padding: 10px;
+  margin: 10px;
+}
+@media screen and (max-width: 768px) {
+  .game-title {
+    font-size: 30px;
+  }
+}
